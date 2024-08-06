@@ -1,0 +1,86 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PedersenHashCapsule",
+            "request": "launch",
+            "mainClass": "org.tron.core.capsule.PedersenHashCapsule",
+            "projectName": "chainbase"
+        },
+        {
+            "type": "java",
+            "name": "AbiUtil",
+            "request": "launch",
+            "mainClass": "org.tron.common.utils.client.utils.AbiUtil",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "CreateCommonTransactionTest",
+            "request": "launch",
+            "mainClass": "org.tron.core.CreateCommonTransactionTest",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "TronTest",
+            "request": "launch",
+            "mainClass": "org.tron.core.consensus.server.TronTest",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "DBConvert",
+            "request": "launch",
+            "mainClass": "org.tron.program.DBConvert",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "FullNode",
+            "request": "launch",
+            "mainClass": "org.tron.program.FullNode",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "KeystoreFactory",
+            "request": "launch",
+            "mainClass": "org.tron.program.KeystoreFactory",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "SolidityNode",
+            "request": "launch",
+            "mainClass": "org.tron.program.SolidityNode",
+            "projectName": "framework"
+        },
+        {
+            "type": "java",
+            "name": "ArchiveManifest",
+            "request": "launch",
+            "mainClass": "org.tron.plugins.ArchiveManifest",
+            "projectName": "plugins"
+        },
+        {
+            "type": "java",
+            "name": "Toolkit",
+            "request": "launch",
+            "mainClass": "org.tron.plugins.Toolkit",
+            "projectName": "plugins"
+        }
+    ]
+}
